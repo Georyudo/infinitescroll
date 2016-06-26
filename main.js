@@ -1,9 +1,12 @@
 /**
  * Created by Alexander on 26.06.2016.
  */
+
 $( document ).ready(function() {
+
     $('.button').click(function(){
-        $('.img-txt-teaser').infinitescroll('retrieve');
+        $('.content .news-teaser').infinitescroll('retrieve');
+         console.log('Retrieve this shit.')
         return false;
     });
 
